@@ -31,6 +31,11 @@ Users should be able to:
 
 ![Desktop view](./design/design-desktop.png)
 
+### Links
+
+- [Solution URL here](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-q-Tj6uGvYm)
+- [Live site URL here](https://gentle-donut-4ef6a6.netlify.app/)
+
 ## My process
 
 ### Built with
