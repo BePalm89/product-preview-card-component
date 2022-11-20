@@ -1,0 +1,146 @@
+:root {
+    --white: #FFF;
+    --alabaster: #F2E9E2;
+    --darkgrey: #6C7289;
+    --lightgreen: #3D8168;
+    --darkgreen: #1A4032;
+    --bluishblack: #1C232B;
+}
+
+*, a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 12px
+}
+
+body {
+    background-color: var(--alabaster);
+    color: var(--darkgrey);
+}
+
+
+.card {
+    background-color: var(--white);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 344px;
+    height: 611px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 100%;
+    background: url("/images/image-product-mobile.jpg") no-repeat top center;
+    background-size:cover;
+} 
+
+.card-body {
+    padding: 20px;
+}
+
+.top-content h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 1.35rem;
+    margin-bottom: 20px;
+}
+
+.top-content h1 {
+    color: var(--bluishblack);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    line-height: 36px;
+    margin: 10px 0;
+}
+
+.paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.price {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    margin: 20px 0
+}
+
+.price .current-price p {
+    color: var(--lightgreen);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+
+.price .old-price p {
+    text-decoration: line-through;
+}
+
+.button {
+    cursor: pointer;
+    background-color: var(--lightgreen);
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    margin-top: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+}
+
+.button .button-pd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.button .button-pd img {
+    height: 16px;
+    width: 15px;
+}
+
+.button .button-pd p {
+    min-width: 100px;
+    font-size: 1.2em;
+    color: var(--white);
+    font-weight: 500;
+}
+ 
+.button:hover {
+    background-color: var(--darkgreen);
+}
+
+
+@media (min-width: 768px) {
+    .card {
+        grid-template-rows: 0;
+        grid-template-columns: repeat(2, 1fr);
+        width: 600px;
+        height: 450px;
+    }
+
+    .card-img {
+        width: 300px;
+        height: 450px;
+        background-image: url("/images/image-product-desktop.jpg");
+    }
+
+    .paragraph {
+        margin-right: 40px;
+    }
+
+    .price {
+        margin-bottom: 0;
+    }
+
+    .button {
+        width: 90%;
+    }
+}
+
