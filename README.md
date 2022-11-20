@@ -31,11 +31,6 @@ Users should be able to:
 
 ![Desktop view](./design/design-desktop.png)
 
-### Links
-
-- [Solution URL here]()
-- [Live site URL here](https://bepalm89.github.io/product-preview-card-component/)
-
 ## My process
 
 ### Built with
