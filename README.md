@@ -12,9 +12,6 @@ This is the solution to the [Product preview card component challenge on Fronten
       3. [Links](#links)
    3. [My process](#my-process)
       1. [Built with](#built-with)
-      2. [What I learned](#what-i-learned)
-      3. [Useful resources](#useful-resources)
-   4. [Author](#author)
 
 ## Overview
 
